@@ -1,0 +1,30 @@
+{% extends "base.html.twig" %}
+{% block title %}Login{% endblock %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="css/style.css"
+{% endblock %}
+{% block body %}
+<div class="loginPageContainer">
+    <div class="loginBox">
+        <h1 class="title">Login</h1>
+        <div class="loginForm">
+            <div class="inputContainer">
+                <label class="inputLabel">Usuário:</label>
+                <input class="inputField" name="username" type="text"/>
+            </div>
+            <div class="inputContainer">
+                <label class="inputLabel">Senha:</label>
+                <input class="inputField" name="password" type="text"/>
+            </div>
+            <div class="buttonArea">
+                <button
+                    class="enterButton"
+                >
+                    Entrar
+                </button>                
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,60 @@
+.loginPageContainer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.loginBox {
+    padding: 20px;
+    background-color: silver;
+    border-radius: 5px;
+}        
+
+.title {
+    text-align: center;
+    font-weight: 500;
+}
+
+.loginForm {
+    width: 100%;
+    margin-top: 20px;
+}
+    
+.inputContainer {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+    border-bottom: 1px solid white;
+}
+
+.inputLabel {
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.inputField {
+    width: 80%;
+    border: none;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+.buttonArea {
+    width: 100%;
+    margin: 20px 0 10px;
+    text-align: center;
+}
+
+.enterButton {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: dodgerblue;
+}
