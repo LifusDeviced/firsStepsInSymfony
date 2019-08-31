@@ -21,27 +21,18 @@
     width: 100%;
     margin-top: 20px;
 }
-    
-.inputContainer {
-    width: 100%;
-    display: flex;
-    flex-flow: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 10px 0;
+
+.form-group {
     border-bottom: 1px solid white;
+    padding: 0 !important;
 }
 
-.inputLabel {
-    margin-right: 10px;
-    font-size: 20px;
-    font-weight: 200;
+.form-label {
+    font-weight: 100 !important;
 }
 
-.inputField {
-    width: 80%;
+.form-control {
     border: none;
-    border-radius: 2px;
     background-color: transparent;
 }
 
@@ -49,12 +40,4 @@
     width: 100%;
     margin: 20px 0 10px;
     text-align: center;
-}
-
-.enterButton {
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 20px;
-    background-color: dodgerblue;
 }
